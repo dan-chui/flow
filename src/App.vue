@@ -20,7 +20,7 @@
 
     <img
       class="relative block mx-auto mt-5 -mb-20 w-auto max-w-full"
-      src="/public/assets/img/introduction-music.png"
+      src="/assets/img/introduction-music.png"
     />
   </section>
 
@@ -273,18 +273,18 @@
     </div>
   </div>
 
-  <app-auth></app-auth>
+  <auth />
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader.vue'
-import AppAuth from '@/components/AppAuth.vue'
+import AppHeader from '@/components/Header.vue'
+import Auth from '@/components/Auth.vue'
 
 export default {
   name: 'App',
   components: {
     AppHeader,
-    AppAuth
+    Auth
   }
 }
 </script>
