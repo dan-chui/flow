@@ -22,7 +22,7 @@
     </div>
   </section>
   <!-- Form -->
-  <section class="container mx-auto mt-6">
+  <section class="container mx-auto mt-6" id="comments">
     <div class="bg-white rounded border border-gray-200 relative flex flex-col">
       <div class="px-6 pt-6 pb-5 font-bold border-b border-gray-200">
         <!-- Comment Count -->
@@ -85,11 +85,11 @@
 </template>
 
 <script>
-import { songsCollection, auth, commentsCollection } from '@/includes/firebase'
 import { mapState, mapActions } from 'pinia'
 import useUserStore from '@/stores/user'
-import { ErrorMessage } from 'vee-validate'
 import usePlayerStore from '@/stores/player'
+import { songsCollection, auth, commentsCollection } from '@/includes/firebase'
+import { ErrorMessage } from 'vee-validate'
 
 export default {
   name: 'Song',
