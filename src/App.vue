@@ -1,13 +1,11 @@
 <template>
   <app-header />
 
-  <router-view></router-view>
-
-  <!-- <router-view v-slot="{ Component }">
+  <router-view v-slot="{ Component }">
     <transition name="fade" mode="out-in">
       <component :is="Component"></component>
     </transition>
-  </router-view> -->
+  </router-view>
 
   <app-player />
 
@@ -16,11 +14,9 @@
 
 <script>
 import { mapWritableState } from 'pinia'
-
 import AppHeader from '@/components/Header.vue'
 import Auth from '@/components/Auth.vue'
 import AppPlayer from '@/components/Player.vue'
-
 import useUserStore from '@/stores/user'
 import { auth } from '@/includes/firebase'
 import { RouterView } from 'vue-router'
