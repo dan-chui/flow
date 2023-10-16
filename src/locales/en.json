@@ -2,9 +2,16 @@
   "home": {
     "listen": "Listen to Great Music!",
     "message1": "With Flow, it’s easy to find the right music at your fingertips.",
-    "message2": "Go with the Flow."
+    "message2": "Go with the Flow!"
   },
   "song": {
     "comment_count": "No comments | 1 comment | {count} comments"
+  },
+  "register": {
+    "accept": "I accept Flow's {0}",
+    "tos": "Terms of Service"
+  },
+  "manage": {
+    "my_songs": "My Songs"
   }
 }
