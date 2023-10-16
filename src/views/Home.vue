@@ -8,13 +8,11 @@
       ></div>
       <div class="container mx-auto">
         <div class="text-white main-header-content">
-          <h1 class="font-bold text-5xl mb-5">Listen to Great Music!</h1>
+          <h1 class="font-bold text-5xl mb-5">{{ $t('home.listen') }}</h1>
           <p class="w-full md:w-8/12 mx-auto">
-            With Flow, it’s easy to find the right music at your fingertips. <br />
-            Whether you’re working out, driving, having fun or relaxing, the right music is always
-            within reach.
+            {{ $t('home.message1') }} <br />
             <br />
-            Go with the Flow.
+            {{ $t('home.message2') }}
           </p>
         </div>
       </div>
