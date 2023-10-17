@@ -2,9 +2,25 @@
   "home": {
     "listen": "素晴らしい音楽を聴く!",
     "message1": "Flowがあれば、指先で簡単に適切な音楽を見つけることができる。",
-    "message2": "Flowに身を任せる!"
+    "message2": "Flowに身を任せる!",
+    "song_header": "曲目"
+  },
+  "song": {
+    "comment_count": "コメントなし | 1 コメント | {count} コメント"
+  },
+  "register": {
+    "accept": "Flowの利用 {0}",
+    "tos": "規約に同意します"
   },
   "manage": {
     "my_songs": "私の歌"
+  },
+  "upload": {
+    "card_title": "アップロード",
+    "drop_box": "ここにファイルをドロップする"
+  },
+  "compositionitem": {
+    "song_title": "曲名",
+    "genre": "ジャンル"
   }
 }

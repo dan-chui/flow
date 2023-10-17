@@ -25,7 +25,7 @@
       </div>
       <vee-form :validation-schema="schema" :initial-values="song" @submit="edit">
         <div class="mb-3">
-          <label class="inline-block mb-2">Song Title</label>
+          <label class="inline-block mb-2">{{ $t('compositionitem.song_title') }}</label>
           <vee-field
             name="modified_name"
             type="text"
@@ -36,7 +36,7 @@
           <ErrorMessage class="text-red-600" name="modified_name" />
         </div>
         <div class="mb-3">
-          <label class="inline-block mb-2">Genre</label>
+          <label class="inline-block mb-2">{{ $t('compositionitem.genre') }}</label>
           <vee-field
             name="genre"
             type="text"

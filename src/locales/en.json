@@ -2,7 +2,8 @@
   "home": {
     "listen": "Listen to Great Music!",
     "message1": "With Flow, it’s easy to find the right music at your fingertips.",
-    "message2": "Go with the Flow!"
+    "message2": "Go with the Flow!",
+    "song_header": "Songs"
   },
   "song": {
     "comment_count": "No comments | 1 comment | {count} comments"
@@ -13,5 +14,13 @@
   },
   "manage": {
     "my_songs": "My Songs"
+  },
+  "upload": {
+    "card_title": "Upload",
+    "drop_box": "Drop your files here"
+  },
+  "compositionitem": {
+    "song_title": "Song Title",
+    "genre": "Genre"
   }
 }
