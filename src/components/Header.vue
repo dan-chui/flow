@@ -53,7 +53,7 @@ export default {
   computed: {
     ...mapStores(useModalStore, useUserStore),
     currentLocale() {
-      return this.$i18n.locale === 'ja' ? 'Japanese' : 'English'
+      return this.$i18n.locale === 'ja' ? 'JPN' : 'ENG'
     }
   },
   methods: {

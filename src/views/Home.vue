@@ -9,11 +9,13 @@
       <div class="container mx-auto">
         <div class="text-white main-header-content">
           <h1 class="font-bold text-5xl mb-5">{{ $t('home.listen') }}</h1>
-          <p class="w-full md:w-8/12 mx-auto">
+          <h3 class="w-full md:w-8/12 mx-auto text-xl">
             {{ $t('home.message1') }} <br />
             <br />
+          </h3>
+          <h3 class="w-full md:w-8/12 mx-auto text-xl italic font-bold">
             {{ $t('home.message2') }}
-          </p>
+          </h3>
         </div>
       </div>
 
