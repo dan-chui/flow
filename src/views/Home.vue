@@ -4,11 +4,11 @@
     <section class="mb-8 py-20 text-white text-center relative">
       <div
         class="absolute inset-0 w-full h-full bg-contain introduction-bg"
-        style="background-image: url(/assets/img/header.png)"
+        style="background-image: url(/assets/img/user-header.png)"
       ></div>
       <div class="container mx-auto">
         <div class="text-white main-header-content">
-          <h1 class="font-bold text-5xl mb-5">{{ $t('home.listen') }}</h1>
+          <h1 class="font-bold text-5xl mb-5 italic">{{ $t('home.title') }}</h1>
           <h3 class="w-full md:w-8/12 mx-auto text-xl">
             {{ $t('home.message1') }} <br />
             <br />
@@ -20,7 +20,7 @@
       </div>
 
       <img
-        class="relative block mx-auto mt-5 -mb-20 w-auto max-w-full"
+        class="relative block mx-auto mt-5 -mb-10 w-auto max-w-[95%]"
         src="/assets/img/introduction-music.png"
       />
     </section>

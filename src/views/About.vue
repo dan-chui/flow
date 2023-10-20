@@ -5,11 +5,13 @@
         <div class="text-secondary main-header-content">
           <h1 class="font-bold text-4xl mb-6">{{ $t('about.header') }}</h1>
           <p class="w-full max-w-3xl mx-auto text-left">
-            <strong><i>Mission</i></strong
+            <strong
+              ><i>{{ $t('about.mission_title') }}</i></strong
             >: {{ $t('about.mission') }}
             <br />
             <br />
-            <strong><i>History</i></strong
+            <strong
+              ><i>{{ $t('about.history_title') }}</i></strong
             >: {{ $t('about.history') }}
             <br />
             <br />

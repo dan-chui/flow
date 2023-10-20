@@ -10,12 +10,12 @@
   <vee-form :validation-schema="schema" @submit="register" :initial-values="userData">
     <!-- Name -->
     <div class="mb-3">
-      <label class="inline-block mb-2">Name</label>
+      <label class="inline-block mb-2">{{ $t('register.name') }}</label>
       <vee-field
         type="text"
         name="name"
         class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition duration-500 focus:outline-none focus:border-black rounded"
-        placeholder="Enter Name"
+        placeholder=""
         :rule="{
           required: true
         }"
@@ -24,18 +24,18 @@
     </div>
     <!-- Email -->
     <div class="mb-3">
-      <label class="inline-block mb-2">Email</label>
+      <label class="inline-block mb-2">{{ $t('register.email') }}</label>
       <vee-field
         type="email"
         name="email"
         class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition duration-500 focus:outline-none focus:border-black rounded"
-        placeholder="Enter Email"
+        placeholder="hello@email.com"
       />
       <ErrorMessage class="text-red-600" name="email" />
     </div>
     <!-- Age -->
     <div class="mb-3">
-      <label class="inline-block mb-2">Age</label>
+      <label class="inline-block mb-2">{{ $t('register.age') }}</label>
       <vee-field
         type="number"
         name="age"
@@ -45,12 +45,12 @@
     </div>
     <!-- Password -->
     <div class="mb-3">
-      <label class="inline-block mb-2">Password</label>
+      <label class="inline-block mb-2">{{ $t('register.password') }}</label>
       <vee-field name="password" :bails="false" v-slot="{ field, errors }">
         <input
           class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition duration-500 focus:outline-none focus:border-black rounded"
           type="password"
-          placeholder="Password"
+          placeholder=""
           v-bind="field"
         />
         <div class="text-red-600" v-for="error in errors" :key="error">
@@ -60,18 +60,18 @@
     </div>
     <!-- Confirm Password -->
     <div class="mb-3">
-      <label class="inline-block mb-2">Confirm Password</label>
+      <label class="inline-block mb-2">{{ $t('register.confirm_password') }}</label>
       <vee-field
         type="password"
         name="confirm_password"
         class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition duration-500 focus:outline-none focus:border-black rounded"
-        placeholder="Confirm Password"
+        placeholder=""
       />
       <ErrorMessage class="text-red-600" name="confirm_password" />
     </div>
     <!-- Country -->
     <div class="mb-3">
-      <label class="inline-block mb-2">Country</label>
+      <label class="inline-block mb-2">{{ $t('register.country') }}</label>
       <vee-field
         as="select"
         name="country"
@@ -80,7 +80,6 @@
         <option value="USA">USA</option>
         <option value="Japan">Japan</option>
         <option value="Germany">Germany</option>
-        <option value="Antartica">Antartica</option>
       </vee-field>
       <ErrorMessage class="text-red-600" name="country" />
     </div>
@@ -103,7 +102,7 @@
       class="block w-full bg-purple-600 text-white py-1.5 px-3 rounded transition hover:bg-purple-700"
       :disabled="reg_in_submission"
     >
-      Submit
+      {{ $t('register.submit') }}
     </button>
   </vee-form>
 </template>
