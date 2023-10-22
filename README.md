@@ -16,7 +16,7 @@ Please visit (in a new tab): https://flow-dan-chui.vercel.app/
 - PWA
 - Tailwind CSS
 - Vite
-- Vitest
+- Testing (Vitest | Cypress)
 - Vercel
 
 ## 💫 Features
@@ -37,7 +37,7 @@ Please visit (in a new tab): https://flow-dan-chui.vercel.app/
 
 - **Internationalization**: Vue-i18 assists with translation between the English and Japanese languages.
 
-- **Vitest**: Automated testing using Vitest helps ensure code quality.
+- **Testing**: Automated testing using Vitest & Cypress helps ensure code quality.
 
 ---
 
