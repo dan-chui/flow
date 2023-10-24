@@ -3,7 +3,7 @@
 ## 💻 Project
 Welcome to **Flow**!
 
-**Flow** is a mobile-responsive Music player app that has many useful features. Users can efficiently upload and edit songs, comment on items, and much more. Data is managed and organised by Firebase, which also provides authentication and data storage.
+**Flow** is a mobile-responsive Music player app that has many useful features. Users can efficiently upload and edit songs, comment on items, and much more. Data is managed and organised by Firebase, which also provides authenticatione.
 
 Please visit (in a new tab): https://flow-dan-chui.vercel.app/
 
@@ -27,7 +27,7 @@ Please visit (in a new tab): https://flow-dan-chui.vercel.app/
 
 - **Authentication**: Login, editing data and user management requires authentication and authorization. Firebase rule policies controls access.
 
-- **Pinia**: Data-fetching and state management library that simplifies fetching, caching, and updating data.
+- **Pinia**: State management library that simplifies fetching, caching, and updating data.
 
 - **Filtering/Sorting**: Filtering and sorting options via Pinia efficiently navigates through data.
 
