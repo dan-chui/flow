@@ -3,7 +3,7 @@
 ## 💻 Project
 Welcome to **Flow**!
 
-**Flow** is a mobile-responsive Music player app that has many useful features. Users can efficiently upload and edit songs, comment on items, and much more. Data is managed and organised by Firebase, which also provides authentication.
+**Flow** is a mobile-responsive Music player app that has many useful features. Users can efficiently upload and edit songs, comment on items, and much more. Data is managed and organised by Firebase, which also provides login and authentication.
 
 Please visit (in a new tab): https://flow-dan-chui.vercel.app/
 
